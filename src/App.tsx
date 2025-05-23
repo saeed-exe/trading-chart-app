@@ -1,5 +1,5 @@
 // src/App.tsx (fixed version)
-import React, { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import styled from 'styled-components';
 import { useChartData } from './hooks/useChartData';
 import TradingChart from './components/TradingChart';

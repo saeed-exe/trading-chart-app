@@ -1,5 +1,5 @@
 // src/components/TradingChart.tsx (fixed version)
-import React, { useRef, useEffect, useState, forwardRef, useImperativeHandle } from 'react';
+import { useRef, useEffect, useState, forwardRef, useImperativeHandle } from 'react';
 import styled from 'styled-components';
 import { createChart } from 'lightweight-charts';
 import type { CandleData } from '../utils/generateDummyData';
